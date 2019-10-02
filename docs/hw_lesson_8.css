@@ -1,3 +1,220 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #33333a; }
+
+body {
+  min-height: 100vh;
+  height: 100%;
+  background-color: #fff; }
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+ul,
+ol {
+  list-style: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700; }
+
+button,
+input,
+textarea {
+  font-size: 1rem;
+  outline: none; }
+
+.page-section {
+  display: flex;
+  justify-content: space-around;
+  /*justify-content: center;*/
+  position: relative; }
+
+/*.page-container {
+  width: 100%;
+  max-width: $container-max-width;
+  padding: 0 $spacing * 2;
+}*/
+.global-header {
+  width: 1440px;
+  height: 40px;
+  background-color: #33333a; }
+  .global-header__text {
+    width: 211px;
+    height: 15px;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 12.5px; }
+  .global-header__global-nav {
+    width: 1440px;
+    height: 80px;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    position: absolute;
+    top: 40px; }
+
+.title {
+  width: 1140px;
+  height: 180px;
+  position: absolute;
+  top: 120px;
+  padding: 66px 368.5px 24px;
+  /*margin: 66px, 0px, 24px;*/
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center; }
+
+.baner {
+  width: 1140px;
+  height: 420px;
+  border: 1px solid red;
+  position: absolute;
+  top: 300px;
+  left: 150px;
+  margin-bottom: 60px; }
+  .baner__baner-img {
+    width: 100%;
+    height: 100%; }
+
+.block1 {
+  width: 1140px;
+  height: 560px;
+  position: absolute;
+  top: 780px;
+  left: 150px;
+  margin-bottom: 60px; }
+
+.product {
+  width: 361px;
+  height: 500px;
+  margin: 0px; }
+  .product__image {
+    width: 100%;
+    height: 100%; }
+  .product__content {
+    width: 361px;
+    height: 140px; }
+
+.block2 {
+  width: 1140px;
+  height: 560px;
+  position: absolute;
+  top: 1400px;
+  left: 150px;
+  margin-bottom: 40px; }
+
+.page-footer {
+  width: 1440px;
+  height: 320px;
+  background-color: #33333a;
+  position: absolute;
+  top: 2100px; }
+
+/*.filters {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  &__header {
+    border-bottom: 2px solid #f3f3f3;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: $font-size-small;
+  }
+  &__title {
+    padding: $header-spacing 0;
+    text-transform: uppercase;
+  }
+  &__reset-control {
+    @include btn-reset-default;
+    padding: $header-spacing 0;
+    color: $color-active;
+    text-transform: uppercase;
+    font-size: $font-size-small;
+  }
+}
+
+@mixin chevron {
+  content: '>';
+  font-size: $font-size-base;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.accordion {
+  &__menu {
+    padding-left: $spacing;
+    height: 0;
+    visibility: hidden;
+    &_open {
+      height: auto;
+      visibility: visible;
+    }
+  }
+
+  &__sub-menu {
+    padding-left: 50px - $spacing;
+  }
+
+  &__title {
+    @include btn-reset-default;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding: $spacing 0;
+    cursor: pointer;
+    &:hover {
+      color: $color-active;
+    }
+    &:focus {
+      color: $color-active;
+    }
+    &:active {
+      color: $color-active;
+    }
+    &_lg {
+      font-size: $font-size-large;
+      margin: $spacing 0;
+      &:after {
+        @include chevron;
+        right: 0;
+      }
+    }
+    &_icon_left {
+      padding-left: 15px;
+      &:before {
+        @include chevron;
+        left: 0;
+      }
+    }
+  }
+}*/
 
 
 /*# sourceMappingURL=hw_lesson_8.css.map*/

@@ -35,12 +35,6 @@
   "hw_7_2": [
     "./src/hw_7_2/hw_7_2.js"
   ],
-  "hw_lesson_7": [
-    "./src/hw_lesson_7/hw_lesson_7.js"
-  ],
-  "hw_lesson_8": [
-    "./src/hw_lesson_8/hw_lesson_8.js"
-  ],
   "lesson_8": [
     "./src/lesson_8/lesson_8.js"
   ]

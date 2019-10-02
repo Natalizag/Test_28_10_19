@@ -11,7 +11,7 @@
     "page:add": "node page-add.js",
     "page:remove": "node page-remove.js",
     "dev": "npm-run-all --parallel server watch",
-    "build": "rimraf docs & webpack"
+    "build": "rimraf build & webpack"
   },
   "author": "Ilya Lytvynov",
   "license": "ISC",
@@ -47,6 +47,7 @@
     "webpack-livereload-plugin": "^2.2.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
     "font-awesome": "^4.7.0",
     "minimist": "^1.2.0"
   }
